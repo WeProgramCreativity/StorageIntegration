@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decentralized File Upload</title>
+</head>
+<body>
+    <h1>Upload a File to IPFS</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Uploaded Files</h2>
+    <ul id="fileList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
